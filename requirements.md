@@ -39,7 +39,7 @@ We want our microservice to be designed so that the source of the dog Api, login
     * All Json interactions 
     * Replaces Newtonsoft 
 * Swagger 
-* Split.io 
+* Flagsmith
 
 ## Acceptance Criteria 
 * ASP.NET API 
@@ -67,7 +67,10 @@ We want our microservice to be designed so that the source of the dog Api, login
     * Have repo level code lint 
         * SonarAnalyzer.CSharp 
     * Feature Flags 
-        * Using: split.io 
+        * Using: Flagsmith
+        * Resources: 
+            * https://github.com/Flagsmith/flagsmith
+            * https://openfeature.dev/
     * Resources: 
         * https://dev.to/srmagura/c-linting-and-formatting-tools-in-2021-bna 
 * Endpoints 
